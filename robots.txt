@@ -1,0 +1,10 @@
+# Current as of: 2026_10_09_19_38 - at user's request: the owner asked that this site not be indexed.
+# The site holds the home page and privacy policy named on the owner's Google OAuth
+# consent screens, so it must stay reachable, but out of search results.
+# Crawlers read robots.txt only at the root of a host (https://telli36411.github.io/robots.txt),
+# so this copy under /pve-apps/ is ignored by them. The control is the
+# <meta name="robots" content="noindex, nofollow"> tag in each page.
+# Never put a Disallow at a host root (a Telli36411.github.io repository, or a custom domain
+# on this one): a crawler that cannot fetch a page never sees its noindex tag.
+User-agent: *
+Disallow: /
